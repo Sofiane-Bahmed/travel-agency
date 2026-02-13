@@ -668,6 +668,11 @@ section{
 
 /*------------testimonials---------------*/
 
+#testimonial{
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
   .testimonials
   {
     padding: 40px 0;
@@ -682,6 +687,10 @@ section{
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
+  }
+
+  .testimonial-inner h1{
+    font-family: 'Expletus Sans', cursive;
   }
   
   .border
